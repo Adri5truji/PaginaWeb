@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BigCap</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header" id="Inicio">
+        <div class="menu container">
+            <a href="#" class="logo">BigCap</a>
+            <input type="checkbox" id="menu"/>
+            <label for="menu"><img src="images/menu.png" class="menu-icono" alt=""></label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#Inicio">Inicio</a></li>
+                    <li><a href="#Nosotros">Nosotros</a></li>
+                    <li><a href="#Promociones">Promociones</a></li>
+                    <li><a href="#Productos">Productos</a></li>
+                    <li><a href="#Valoraciones">Valoraciones</a></li>
+                    <li><a href="#Contacto">Contacto</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="images/car.svg" id="img-carrito" alt="">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                            <a href="#" id="vaciar-carrito" class="btn-1">Vaciar Carrito</a>
+                            <a href="#" id="comprar-todo" class="btn-1">Comprar Todo</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="header-content">
+            <div class="header-txt">
+                <h1>Compra tu BigCap<br>favorito aquí</h1>
+                <p>
+                    ¡Saludos cordiales y bienvenido a la página web de AsesoríaA10! <br> Estamos emocionados de tenerte aquí y queremos mostrarte todo lo que tenemos para ofrecer en el fascinante mundo de la industria automatizada. <br> Nos enorgullece presentarte nuestro proyecto más reciente y exitoso: ¡BigCap!<br> Este proyecto representa el resultado de nuestro arduo trabajo y dedicación, y estamos encantados de compartirlo contigo. <br> Te invitamos a sumergirte en nuestra página y descubrir la variedad de BigCaps que tenemos disponibles. <br> Así que no esperes más, ¡explora, descubre y adquiere tus BigCaps favoritos hoy mismo! <br> ¡BigCap! 
+                </p>
+            </div>
+            <div class="header-img">
+                <img src="images/Principal.jpg" alt="">
+            </div>
+        </div>
+    </header>
+
+    <section class="principal container">
+        <div class="principal-content">
+            <h1>BigCap del Mes</h1>     
+            <div class="swiper mySwiper-1">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="principal-info">
+                            <div class="principal-img">
+                                <img src="images/EduardoFrente.png" alt="">
+                            </div>
+                            <div class="principal-txt">
+                                <h2>Eduardo</h2>
+                                <div class="prices">
+                                    <p class="price-1">29,99€</p>
+                                    <p class="price-2">19,99€</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="principal-info">
+                            <div class="principal-img">
+                                <img src="images/EduardoEspalda.png" alt="">
+                            </div>
+                            <div class="principal-txt">
+                                <h2>Eduardo</h2>
+                                <div class="prices">
+                                    <p class="price-1">29,99€</p>
+                                    <p class="price-2">19,99€</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="nosotros container" id="Nosotros">
+		<h2>¿Quiénes somos?</h2>
+        <p>
+            Somos AsesoriaA10, un equipo de trabajo focalizado en la mejora de la automatización industrial<br>
+            Nuestros objetivos se basan en la eficiencia, productividad y satisfacción<br>
+            ¡AsesoriaA10! Nosotros ponemos el esfuerzo y tú nos pones el 10
+        </p>
+		<div class="nosotros-content">
+			<div class="nosotros-1">
+				<img src="images/Mario.jpeg">
+				<h3>Mario Comeche</h3>
+				<div class="btn-1">Project Manager</div>
+			</div>
+			<div class="nosotros-1">
+				<img src="images/Trujillo.jpeg">
+				<h3>Adrián Trujillo</h3>
+				<div class="btn-1">Documentalista</div>
+			</div>
+			<div class="nosotros-1">
+				<img src="images/Alvaro.jpeg">
+				<h3>Alvaro Gómez</h3>
+				<div class="btn-1">Desarrollador</div>
+			</div>
+			<div class="nosotros-1">
+				<img src="images/Emilio.jpeg">
+				<h3>Emilio Giménez</h3>
+				<div class="btn-1">Supervisor</div>
+			</div>
+		</div>
+	</section>
+<section class="promos container" id="Promociones">
+    <section class="promos container" id="lista-1">
+        <h2>Promociones</h2>
+        <div class="categories">
+            <div class="categorie">
+                <div class="categorie-1">
+                    <h3>Emilio y Adrián</h3>
+                    <div class="prices">
+                        <p class="price-1">39,99€</p>
+                        <p class="precio">29,99€</p>
+                    </div>
+                    <a href="#" class="agregar-carrito btn-3" data-id="1">Agregar al carrito</a>
+                </div>
+                <div class="categorie-img">
+                    <img src="images/duo.png" alt="">
+                </div>
+            </div>
+            <div class="categorie">
+                <div class="categorie-1">
+                    <h3>Alvaro y Mario</h3>
+                    <div class="prices">
+                        <p class="price-1">39,99€</p>
+                        <p class="precio">29,99€</p>
+                    </div>
+                    <a href="#" class="agregar-carrito btn-3" data-id="2">Agregar al carrito</a>
+                </div>
+                <div class="categorie-img">
+                    <img src="images/duo2.png" alt="">
+                </div>
+            </div>
+            <div class="categorie">
+                <div class="categorie-1">
+                    <h3>Los Tres Mosqueteros</h3>
+                    <div class="prices">
+                        <p class="price-1">59,99€</p>
+                        <p class="precio">39,99€</p>
+                    </div>
+                    <a href="#" class="agregar-carrito btn-3" data-id="3">Agregar al carrito</a>
+                </div>
+                <div class="categorie-img">
+                    <img src="images/trio.png" alt="">
+                </div>
+            </div>
+            <div class="categorie">
+                <div class="categorie-1">
+                    <h3>El Tridente</h3>
+                    <div class="prices">
+                        <p class="price-1">59,99€</p>
+                        <p class="precio">39,99€</p>
+                    </div>
+                    <a href="#" class="agregar-carrito btn-3" data-id="4">Agregar al carrito</a>
+                </div>
+                <div class="categorie-img">
+                    <img src="images/trio2.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+</section>
+   
+<section class="products container" id="Productos">
+    <section class="products container" id="lista-2">
+        <h2>Próximos Productos</h2>
+        <h4>Pack de Verano</h4>
+        <div class="swiper mySwiper-2">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="images/EmilioVerano.png" alt="">
+                        <div class="product-txt">
+                            <h3>Emilio</h3>
+                            <p>Pack de Verano</p>
+                            <p class="precio">29,99€</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="images/TrujilloVerano.png" alt="">
+                        <div class="product-txt">
+                            <h3>Adrián</h3>
+                            <p>Pack de Verano</p>
+                            <p class="precio">29,99€</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="images/AlvaroVerano.png" alt="">
+                        <div class="product-txt">
+                            <h3>Alvaro</h3>
+                            <p>Pack de Verano</p>
+                            <p class="precio">29,99€</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="images/MarioVerano.png" alt="">
+                        <div class="product-txt">
+                            <h3>Mario</h3>
+                            <p>Pack de Verano</p>
+                            <p class="precio">29,99€</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </div>
+    </section>
+    
+    <section class="products container" id="lista-3">
+        <h2>Productos</h2>
+        <div class="swiper mySwiper-2">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="images/EmilioFrente.png" alt="">
+                        <div class="product-txt">
+                            <h3>Emilio</h3>
+                            <p>Calidad Premium</p>
+                            <p class="precio">19,99€</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="5">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="images/TrujilloFrente.png" alt="">
+                        <div class="product-txt">
+                            <h3>Adrián</h3>
+                            <p>Calidad Premium</p>
+                            <p class="precio">19,99€</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="6">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="images/AlvaroFrente.png" alt="">
+                        <div class="product-txt">
+                            <h3>Alvaro</h3>
+                            <p>Calidad Premium</p>
+                            <p class="precio">19,99€</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="7">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="images/MarioFrente.png" alt="">
+                        <div class="product-txt">
+                            <h3>Mario</h3>
+                            <p>Calidad Premium</p>
+                            <p class="precio">19,99€</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="8">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="product">
+                        <img src="images/EduardoFrente.png" alt="">
+                        <div class="product-txt">
+                            <h3>Eduardo</h3>
+                            <p>Calidad Premium</p>
+                            <p class="precio">19,99€</p>
+                            <a href="#" class="agregar-carrito btn-3" data-id="9">Agregar al carrito</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+    </section>
+</section>
+
+    <section class="valoraciones container" id="Valoraciones">
+		<h2>Valoraciones</h2>
+
+		<div class="valoraciones-content">
+
+			<div class="valoraciones-1">
+				<img src="images/av1.jpg">
+				<h4>Juan Medina</h4>
+				<h3>Buena calidad</h3>
+				<p>
+					Me encantó los detalles de los BigCap, sin duda se ve mucho trabajo detrás de cada uno.
+				</p>
+			</div>
+
+			<div class="valoraciones-1">
+				<img src="images/av2.jpg">
+				<h4>Ana Motes</h4>
+				<h3>Más</h3>
+				<p>
+                    Se nota el trabajo en cada uno de ellos, 100% recomendables, el único fallo, la variedad, ¡Sacad más, también chicas! 
+				</p>
+			</div>
+
+			<div class="valoraciones-1">
+				<img src="images/av3.jpg">
+				<h4>Benito Mayoral</h4>
+				<h3>Increíbles</h3>
+				<p>
+					Cada uno tiene su propia esencia, espero que estos no sean los últimos que saquen, son increíbles.
+				</p>
+			</div>
+
+			<div class="valoraciones-1">
+				<img src="images/av4.jpg">
+				<h4>Lola Hernández</h4>
+				<h3>Magníficos</h3>
+				<p>
+                    Mi hijo está encantando con Adrián, ahora dice que los quiere todos, menos mal que ponéis promociones. ¡Gracias!
+				</p>
+			</div>
+		</div>
+	</section>
+    
+    <footer class="footer container" id="Contacto">
+        <div class="link">
+            <h3>BigCap</h3>
+            <ul>
+                <li><a href="#Inicio">Inicio</a></li>
+                <li><a href="#Nosotros">Nosotros</a></li>
+                <li><a href="#Promociones">Promociones</a></li>
+                <li><a href="#Productos">Productos</a></li>
+                <li><a href="#Valoraciones">Valoraciones</a></li>
+                <li><a href="#Contacto">Contacto</a></li>
+            </ul>
+        </div>
+        <div class="contacto">
+            <h3>Datos de Contacto</h3>
+            <ul>
+                <li>Teléfono: 610854707</li>
+                <li>Correo Electrónico: AsesoriaA10@gmail.com</li>
+                <li>Dirección: c/Juan López 1, Minglanilla, Valencia</li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mqtt/5.6.0/mqtt.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
