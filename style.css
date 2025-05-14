@@ -10,11 +10,11 @@
 
 body{
   font-family: 'Poppins', sans-serif;
-  background-color: #242430;
+  background-color: #0eccf6;
 }
 
 .container{
-    max-width: 1200px;
+    max-width: 1550px;
     margin: 0 auto;
 }
 
@@ -43,12 +43,12 @@ body{
 }
 
 .swiper-pagination-bullet{
-    background-color: #747474;
+    background-color: #0eccf6;
     opacity: 1;
 }
 
 .swiper-pagination-bullet-active{
-    background-color: #7270EC;
+    background-color: #ee004c;
 }
 
 html{
@@ -68,7 +68,7 @@ section[id]{
     align-items: center;
     justify-content: space-between;
     z-index: 1000;
-    background-color: #7270EC;
+    background-color: #ee004c;
 }
 
 .logo{
@@ -80,7 +80,7 @@ section[id]{
 
 .menu .navbar ul li{
     position: relative;
-    float: left;
+    float: right;
 }
 
 .menu .navbar ul li a{
@@ -107,26 +107,6 @@ section[id]{
     display: none;
 }
 
-.submenu{
-    position: relative;
-}
-
-.submenu #carrito{
-    display: none;
-}
-
-.submenu:hover #carrito{
-    display: block;
-    position: absolute;
-    right: 0;
-    backdrop-filter: blur(10px);
-    top: 100%;
-    z-index: 1;
-    background-color: #4E4B5076;
-    padding: 20px;
-    min-width: 400px;
-}
-
 table{
     width: 100%;
 }
@@ -136,7 +116,7 @@ th, td{
 }
 
 .borrar{
-    background-color: #7270EC;
+    background-color: #ee004c;
     border-radius: 50%;
     padding: 5px 10px;
     text-decoration: none;
@@ -148,7 +128,7 @@ th, td{
     display: flex;
     justify-content: space-between;
     padding: 100px 0;
-    background-color: #7270EC;
+    background-color: #ee004c;
 }
   
 .header-txt{
@@ -171,11 +151,11 @@ th, td{
 }
 
 .header-img{
-    flex-basis: 60%;
+    flex-basis: 50%;
 }
 
 .header-img img{
-    width: 450px;
+    width: 260px;
 }
 
 .principal-content{
@@ -243,8 +223,8 @@ th, td{
     padding: 20px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
-    background-color: #C51661;
-    border: 1px solid #7270EC;
+    background-color: #ee004c;
+    border: 1px solid #FEFFFF;
 }
   
 .nosotros-1 img{
@@ -252,11 +232,11 @@ th, td{
     height: 100px;
     border-radius: 50%;
     margin-bottom: 20px;
-    border: 1px solid #7270EC;
+    border: 1px solid #FEFFFF;
 }
   
 .nosotros-1 h3{
-    color: #FFFFFF;
+    color: #FEFFFF;
     font-size: 20px;
 }
 
@@ -274,12 +254,12 @@ th, td{
 
 .price-2{
     font-size: 30px;
-    color: #7270EC !important;
+    color: #ee004c !important;
 }
 
 .btn-1{
     display: inline-block;
-    background-color: #7270EC;
+    background-color: #ee004c;
     color: #FEFFFF;
     font-size: 16px;
     padding: 10px 25px;
@@ -288,7 +268,7 @@ th, td{
 }
 
 .btn-1:hover{
-    background-color: #6C69F9;
+    background-color: #ee004c;
 }
 
 hr{
@@ -354,7 +334,7 @@ hr{
 
 .products h4{
     font-size: 34px;
-    color: #7270EC;
+    color: #ee004c;
     margin-bottom: 30px;
 }
 
@@ -374,7 +354,7 @@ hr{
 }
 
 .product-txt p{
-    color: #7270EC;
+    color: #ee004c;
     font-size: 16px;
     margin-bottom: 10px;
 }
@@ -388,13 +368,13 @@ hr{
     padding: 10px 25px;
     font-size: 14px;
     color: #FEFFFF;
-    border: 1px solid #7270EC;
+    border: 1px solid #ee004c;
     border-radius: 25px;
     margin-top: 15px;
 }
 
 .btn-3:hover{
-    background-color: #7270EC;
+    background-color: #ee004c;
 }
 
 .valoraciones{
@@ -423,7 +403,7 @@ hr{
     padding: 20px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
-    background-color: #C51661;
+    background-color: #ee004c;
 }
 
 .valoraciones-1 img{
@@ -458,15 +438,16 @@ hr{
 }
 
 .footer ul li a:hover{
-    color: #7270EC;
+    color: #FEFFFF;
 }
 
 .contacto ul li:hover{
-    color: #7270EC;
+    color: #FEFFFF;
+    cursor: pointer;
 }
 
 .contacto ul li{
-    color: #747B8F;
+    color: #ee004c;
     font-size: 16px;
     padding: 5px;
 }
@@ -486,14 +467,14 @@ hr{
 }
 
 .link a{
-    color: #747B8F;
+    color: #ee004c;
     font-size: 16px;
     display: block;
     margin-bottom: 10px;
 }
 
 .link p{
-    color: #747B8F;
+    color: #ee004c;
     font-size: 16px;
 }
 
@@ -511,7 +492,7 @@ hr{
         top: 100%;
         left: 0;
         right: 0;
-        background-color: #C51661;
+        background-color: #ee004c;
         display: none;
     }
 
@@ -650,7 +631,7 @@ hr{
 
     .products p{
         font-size: 20px;
-        color: #6C69F9;
+        color: #ee004c;
     }
 
     .valoraciones{
