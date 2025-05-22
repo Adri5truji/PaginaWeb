@@ -80,7 +80,7 @@ section[id]{
 
 .menu .navbar ul li{
     position: relative;
-    float: right;
+    float: left;
 }
 
 .menu .navbar ul li a{
